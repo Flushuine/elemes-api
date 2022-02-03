@@ -6,7 +6,9 @@
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon app.js"
+    "start": "nodemon app.js",
+    "migrate": "sequelize db:migrate",
+    "seed": "sequelize db:seed:all"
   },
   "author": "Muhammad Agil",
   "license": "ISC",
@@ -24,6 +26,7 @@
     "multer": "^1.4.4",
     "mysql2": "^2.3.3",
     "nodemon": "^2.0.15",
-    "sequelize": "^6.15.0"
+    "sequelize": "^6.15.0",
+    "sequelize-cli": "^6.4.1"
   }
 }
