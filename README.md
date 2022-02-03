@@ -38,7 +38,7 @@ Here's a tutorial on how to install [**Redis Server.**](https://redis.io/topics/
 
 1. Clone and push this repository to heroku repository.
 2. Build the repo.
-3. Setup the config vars (.env) in `Heroku -> settings`. All the config example is in `.env.example`.
+3. Setup the config vars (.env) in `Heroku -> settings`. All the config example are in `.env.example`.
 4. Open Heroku terminal, and run this:
    ```bash
    $ npm run init
