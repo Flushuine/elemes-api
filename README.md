@@ -5,6 +5,8 @@
 1. [General Information](#general-information)
 2. [Requirements](#requirements)
 3. [Installation](#installation)
+   - [Heroku](#heroku)
+   - [Locally](#locally)
 4. [API Documentation](#api-documentation)
    - [Authentication](#authentication)
    - [Course](#course)
@@ -32,13 +34,29 @@ Here's a tutorial on how to install [**Redis Server.**](https://redis.io/topics/
 
 ## Installation
 
+### Heroku
+
+1. Clone and push this repository to heroku repository.
+2. Build the repo.
+3. Setup the config vars (.env) in `Heroku -> settings`. All the config example is in `.env.example`.
+4. Open Heroku terminal, and run this:
+   ```bash
+   $ npm run init
+   $ npm run migrate
+   $ npm run seed
+   ```
+
+<br>
+
+### Locally
+
 Clone and extract this repository and then install it locally using this command:
 
 ```bash
 $ cd ../elemesTest
 $ npm install
 $ cp .env.example .env
-$ sequelize init
+$ npm run init
 ```
 
 1. Create a database.
@@ -51,8 +69,8 @@ $ sequelize init
 After that, run this:
 
 ```bash
-$ sequelize db:migrate
-$ sequelize db:seed:all
+$ npm run migrate
+$ npm run seed
 ```
 
 To run this application just simply run:
