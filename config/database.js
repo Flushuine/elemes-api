@@ -1,14 +1,13 @@
 import dotenv from 'dotenv'
 import Sequelize from 'sequelize'
-
 dotenv.config()
 
 const conn = new Sequelize(
-    process.env.MYSQLDATABASE,
-    process.env.MYSQLUSER,
-    process.env.MYSQLPASSWORD,
+    process.env.DB_NAME,
+    process.env.USER_NAME,
+    process.env.PASSWORD,
     {
-        host: process.env.MYSQLHOST,
+        host: process.env.HOST,
         dialect: 'mysql'
     }
 )
