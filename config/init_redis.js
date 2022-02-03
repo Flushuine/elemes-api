@@ -1,12 +1,7 @@
 import redis from 'ioredis'
-import dotenv from 'dotenv'
-
-dotenv.config()
 
 const client = redis.createClient({
-    host: process.env.REDISHOST,
-    port: process.env.REDISPORT,
-    password: process.env.REDISPASSWORD
+    url: 'redis-11451.c1.asia-northeast1-1.gce.cloud.redislabs.com:11451'
 })
 
 client.on('error', function(error) {

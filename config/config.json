@@ -1,9 +1,9 @@
 {
   "development": {
-    "username": "root",
-    "password": "f9v6phYTvpXPLBXbAeJI",
-    "database": "railway",
-    "host": "containers-us-west-28.railway.app",
+    "username": "uo4mcwegbcaecb6o",
+    "password": "pe0EzEss3GH1higLa7YI",
+    "database": "bgvr9wmr8dgnyjxpblmi",
+    "host": "bgvr9wmr8dgnyjxpblmi-mysql.services.clever-cloud.com",
     "dialect": "mysql"
   },
   "test": {
@@ -14,10 +14,10 @@
     "dialect": "mysql"
   },
   "production": {
-    "username": "root",
-    "password": "f9v6phYTvpXPLBXbAeJI",
-    "database": "railway",
-    "host": "containers-us-west-28.railway.app",
+    "username": "uo4mcwegbcaecb6o",
+    "password": "pe0EzEss3GH1higLa7YI",
+    "database": "bgvr9wmr8dgnyjxpblmi",
+    "host": "bgvr9wmr8dgnyjxpblmi-mysql.services.clever-cloud.com",
     "dialect": "mysql"
   }
 }
