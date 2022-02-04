@@ -46,6 +46,8 @@ Here's a tutorial on how to install [**Redis Server.**](https://redis.io/topics/
    $ npm run seed
    ```
 
+You can get your `SECRET_KEY` and `REFRESH_TOKEN` by running `utils/secret_key.js` file.
+
 <br>
 
 ### Locally
@@ -73,7 +75,7 @@ $ npm run migrate
 $ npm run seed
 ```
 
-To run this application just simply run:
+To start this application just simply run:
 
 ```bash
 $ npm start
